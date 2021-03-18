@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+</head>
+<body>
+<form action="提交的地址" enctype="multipart/form-data" method="post">
+    <table border="1" bgcolor="aqua">
+        <caption>登录</caption>
+        <tr >
+            <td align="right">姓名：</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="right">密码：</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td align="right">确认密码：</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td align="right">密码提示问题：</td>
+            <td>
+                <select name="" id="">
+                    <option value="0">你的出生地</option>
+                    <option value="1">你的出生日期</option>
+                    <option value="2">你的家乡所在的</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">密码提示答案：</td>
+            <td>
+                <input type="text" value="你猜">
+            </td>
+        </tr>
+        <tr>
+            <td align="right">性别：</td>
+            <td>
+                <input type="radio" name="sex" id="man" checked >
+                <label for="man">男</label>
+                <input type="radio" name="sex" id="woman" >
+                <label for="woman">女</label>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">年龄：</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td align="right">籍贯：</td>
+            <td>
+                <select name="sheng" id="">
+                    <option value="0">请选择</option>
+                    <option value="0">北京</option>
+                    <option value="0">湖南</option>
+                    <option value="0">湖北</option>
+                    <option value="0">海南</option>
+                    <option value="0">贵州</option>
+                    <option value="0">福建</option>
+                    <option value="0">广东</option>
+                    <option value="0">广西</option>
+                    <option value="0">云南</option>
+                    <option value="0">重庆</option>
+                </select>
+                省/直辖市
+                <select name="shi" id="">
+                    <option value="0">请选择</option>
+                    <option value="0">贵阳</option>
+                    <option value="0">遵义</option>
+                    <option value="0">毕节</option>
+                    <option value="0">黔西东南州</option>
+                    <option value="0">黔东南州</option>
+                    <option value="0">黔南州</option>
+                    <option value="0">凯里</option>
+                </select>
+                市
+                <select name="xian" id="">
+                    <option value="0">请选择</option>
+                    <option value="0">剑河县</option>
+                    <option value="0">天柱县</option>
+                    <option value="0">锦平县</option>
+                    <option value="0">台江县</option>
+                    <option value="0">榕江县</option>
+                    <option value="0">从江县</option>
+                    <option value="0">黎平县</option>
+                </select>
+                县
+            </td>
+        </tr>
+        <tr>
+            <td align="right">爱好：</td>
+            <td>
+                <input type="checkbox">上网
+                <input type="checkbox">体育
+                <input type="checkbox" checked>学习
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="midden">个人介绍：</td>
+            <td>
+                <textarea name="myself" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">上传文件：</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit">
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
